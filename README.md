@@ -30,7 +30,7 @@ Taken from a post from the official WHO website dated June 9, 2021: Obesity and 
 Based on all of the above, we believe that the problem of diabetes mellitus is very relevant in the modern world. It is very difficult to keep records of changes in blood sugar, since the majority of the population does not have access to gadgets that communicate with the phone and transmit all the information to it. I have to write down all the measurements on a piece of paper (I myself have repeatedly encountered similar situations). 
 This bot was conceived as an assistant for keeping records of all criteria that affect blood sugar content.
 
-## some AI capabilities
+## "some AI capabilities"
   Unfortunately, I could not independently implement the idea using "some AI capabilities". I could not implement it on my own (at least I do not have data for training a bot).
   The essence of the idea is to predict the development of a trend in the blood sugar content of a diabetic to avoid hypoglycemia and hyperglycemia. Based on data: gender, age, height, weight, body mass index, type of diabetes (or lack thereof), as well as data on sugar dynamics depending on food intake and injected insulin, we train our AI. After that, our AI builds a trend and indicates the predicted measurements and the approximate time of an excessive decrease (increase) in sugar levels based on the patient's personal data. 
   
