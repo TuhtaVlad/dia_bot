@@ -345,7 +345,10 @@ def main() -> None:
                 )
             ],
         },
-        fallbacks=[MessageHandler(filters.Regex('^Done$'), done)],
+        fallbacks=[
+            MessageHandler(filters.Regex('^Done$'), done),
+            CommandHandler("start", start),
+        ],
     )
 
     application.add_handler(conv_handler)
