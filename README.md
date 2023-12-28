@@ -1,4 +1,4 @@
-# jb_int_dia_bot
+# dia_bot
 ## PROBLEM
   Diabetes is a serious, chronic disease that occurs either when the pancreas does not produce enough insulin (a hormone that regulates blood sugar, or glucose), or when the body cannot effectively use the insulin it produces. Diabetes is an important public health problem, one of four priority noncommunicable diseases (NCDs) targeted for action by world leaders. Both the number of cases and the prevalence of diabetes have been steadily increasing over the past few decades.
   
