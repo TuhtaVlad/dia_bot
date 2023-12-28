@@ -316,7 +316,7 @@ async def done(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
 
 def main() -> None:
-    application = Application.builder().token('6956449029:AAGr6tF8Nyzp4Izxssj1TNnfnfkD-s-0amc').build()
+    application = Application.builder().token('BOT-TOKEN').build()
 
     def error_handler(update: Update, context: CallbackContext) -> None:
         logger.error(f'Update {update} caused error {context.error}')
